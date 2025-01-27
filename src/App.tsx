@@ -1,7 +1,7 @@
 import './App.css'
 import { Routes, Route } from "react-router-dom";
-import Home from './pages/home';
-import Trade from './pages/trade';
+import Home from './pages/Home';
+import Trade from './pages/Trade';
 import NotFound from './pages/NotFound';
 
 function App() {
