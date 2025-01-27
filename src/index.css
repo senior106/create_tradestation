@@ -27,6 +27,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  background-color: rgb(129, 129, 139);
   place-items: center;
   min-width: 320px;
   min-height: 100vh;

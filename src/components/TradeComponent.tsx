@@ -11,7 +11,7 @@ const TradeComponent: React.FC<TradeComponentProps> = ({title, onChange, values}
     const UnitType = ['Pip', 'Price'];
 
     return (
-        <div>
+        <div className='p-4 bg-gray-700 text-white rounded-3xl  shadow-lg shadow-gray-900'>
             <div className="text-4xl p-8">{title}</div>
             <div className="flex flex-row justify-between py-2">
                 <div>Start Data & Time</div>

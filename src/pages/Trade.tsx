@@ -47,7 +47,7 @@ function Trade() {
 
   return (
     <div>
-      <div className="flex flex-col gap-20 justify-between items-center">
+      <div className="flex flex-col gap-4 justify-between items-center">
         <TradeComponent 
           title = 'Order 1' 
           onChange={(values) => handleOrderChange(1, values)}
@@ -59,16 +59,16 @@ function Trade() {
           values={order2Values}
         />
       </div>
-      <div className="flex flex-row justify-between items-center">
+      <div className="flex flex-row justify-between items-center m-2">
         <button 
-          className="m-2 p-2 w-[15vw] min-w-[150px] rounded-2xl bg-green-400 hover:bg-green-500 active:bg-green-600 shadow-gray-300 shadow-lg" 
+          className="m-2 p-2 w-[15vw] min-w-[150px] rounded-2xl bg-green-400 hover:bg-green-500 active:bg-green-600 shadow-gray-900 shadow-lg" 
           onClick={handleStartClick}
         >
           Start
         </button>
         <button 
-          disabled={order1Values.trailing===2} 
-          className="m-2 p-2 w-[15vw] min-w-[150px] rounded-2xl bg-green-400 hover:bg-green-500 active:bg-green-600 shadow-gray-300 shadow-lg disabled:bg-gray-300 disabled:text-gray-500" 
+          disabled={order1Values.trailing===0} 
+          className="m-2 p-2 w-[15vw] min-w-[150px] rounded-2xl bg-green-400 hover:bg-green-500 active:bg-green-600 shadow-gray-900 shadow-lg disabled:bg-gray-300 disabled:text-gray-500" 
           onClick={handleTrailingClick}
         >
           Trailing

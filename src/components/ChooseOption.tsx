@@ -21,7 +21,7 @@ const ChooseOption: React.FC<ChooseOptionProps> = ({ label, options, onChange })
       <select
         value={selectedOption}
         onChange={handleChange}
-        className="flex mt-1 w-[100%] px-4 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+        className="flex mt-1 w-[100%] px-4 py-2 bg-gray-700 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
       >
         {options.map((option, index) => (
           <option key={index} value={option}>
