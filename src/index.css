@@ -37,7 +37,12 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
+.titleShadow {
+  text-shadow: 3px 3px 3px black, -1px -1px 2px gray; /* Two shadows */
+}
+.buttonShadow {
+  text-shadow: 0.1px 0.1px 0.1px black; /* Two shadows */
+}
 /* button {
   border-radius: 8px;
   border: 1px solid transparent;

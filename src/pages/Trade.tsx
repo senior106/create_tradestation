@@ -59,16 +59,16 @@ function Trade() {
           values={order2Values}
         />
       </div>
-      <div className="flex flex-row justify-between items-center m-2">
+      <div className="flex flex-row justify-between items-center m-2 text-black">
         <button 
-          className="m-2 p-2 w-[15vw] min-w-[150px] rounded-2xl bg-green-400 hover:bg-green-500 active:bg-green-600 shadow-gray-900 shadow-lg" 
+          className="buttonShadow m-2 p-2 w-[15vw] min-w-[150px] rounded-2xl bg-green-400 hover:bg-green-500 active:bg-green-600 shadow-gray-900 shadow-lg" 
           onClick={handleStartClick}
         >
           Start
         </button>
         <button 
           disabled={order1Values.trailing===0} 
-          className="m-2 p-2 w-[15vw] min-w-[150px] rounded-2xl bg-green-400 hover:bg-green-500 active:bg-green-600 shadow-gray-900 shadow-lg disabled:bg-gray-300 disabled:text-gray-500" 
+          className="buttonShadow m-2 p-2 w-[15vw] min-w-[150px] rounded-2xl bg-green-400 hover:bg-green-500 active:bg-green-600 shadow-gray-900 shadow-lg disabled:bg-gray-300 disabled:text-gray-500" 
           onClick={handleTrailingClick}
         >
           Trailing
